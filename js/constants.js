@@ -1,0 +1,1 @@
+const taxValue = 1.22;

@@ -1,8 +1,8 @@
-
+importScripts("constants.js", "functions.js");
 
 function update() {
 	postMessage({
-		result: Math.round(result * 100) / 100
+      result: taxRound(result)
 	});
  }
 
