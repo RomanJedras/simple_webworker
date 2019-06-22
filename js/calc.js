@@ -1,12 +1,10 @@
 
 
 function update() {
-	
 	postMessage({
 		result: Math.round(result * 100) / 100
 	});
-	
-}
+ }
 
 let result = 0;
 onmessage = function(event) {
@@ -16,5 +14,4 @@ onmessage = function(event) {
 	}
 	
 	update();
-	
 };
